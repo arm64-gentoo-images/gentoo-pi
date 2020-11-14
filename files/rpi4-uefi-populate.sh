@@ -29,3 +29,11 @@ GRUB_PLATFORMS="efi-32 efi-64 efi-arm64 arm-efi pc" USE="device-mapper efiemu fo
 pango split-usr"  emerge sys-fs/zfs-kmod sys-fs/zfs sys-boot/os-prober sys-boot/plymouth-openrc-plugin sys-boot/grub dev-embedded/u-boot-tools /sys-kernel/dracut dev-util/rpmdevtools app-arch/rpm2targz
 echo -e '\r'
 EOG
+# https://stackoverflow.com/questions/51305706/shell-script-that-does-chroot-and-execute-commands-in-chroot
+
+#chroot_build() { /home/mayank/chroot/codebase /bin/bash <<"EOT"
+# cd /tmp/so
+# ls -l
+#echo $$
+#EOT
+#} 
