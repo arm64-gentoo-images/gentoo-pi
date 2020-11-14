@@ -1,0 +1,12 @@
+label: gpt
+label-id: 102B0EA3-18BD-4B6D-8A3D-8A37575C26AD
+device: /dev/sda
+unit: sectors
+first-lba: 34
+last-lba: 33554398
+sector-size: 512
+
+/dev/sda1 : start=        2048, size=       20480, type=0FC63DAF-8483-4772-8E79-3D69D8477DE4, uuid=56ADF11A-A4C0-4308-8DE4-D202E4A72ABA, name="BIOS_GRUB"
+/dev/sda2 : start=       22528, size=      256000, type=EBD0A0A2-B9E5-4433-87C0-68B6B72699C7, uuid=1DE458BD-4AF6-46F8-9455-4418514C7D00, name="LINUX_arm64_EFI"
+/dev/sda3 : start=      278528, size=     1331200, type=0FC63DAF-8483-4772-8E79-3D69D8477DE4, uuid=1E8CA395-B238-4AB3-ACB0-58E412462AA6, name="LINUX_BOOT"
+/dev/sda4 : start=     1609728, size=    31942656, type=0FC63DAF-8483-4772-8E79-3D69D8477DE4, uuid=F7836229-7052-4BE3-B713-01F01EC36278, name="LINUX_ROOT"
